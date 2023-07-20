@@ -122,7 +122,7 @@ def load_into_mysql(df1):
 
 st.set_page_config(layout="wide", page_title="Business card Extraction")
 st.markdown(f""" <style>.stApp {{
-                    background: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-56228.jpg");
+                    background: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg");
                     background-size: cover}}
                     </style>""",unsafe_allow_html=True)
 
