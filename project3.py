@@ -126,7 +126,7 @@ st.markdown(f""" <style>.stApp {{
                     background-size: cover}}
                     </style>""",unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center; color: blue;'>Extracting Business Card Data with OCR</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Extracting Business Card Data with OCR</h1>", unsafe_allow_html=True)
 tab1,tab2 = st.tabs(["Extract card and Load into MySQL","Update & Delete card details"])
 with tab1:
     col1,col2 = st.columns(2)
