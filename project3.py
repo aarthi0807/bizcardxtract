@@ -122,11 +122,11 @@ def load_into_mysql(df1):
 
 st.set_page_config(layout="wide", page_title="Business card Extraction")
 st.markdown(f""" <style>.stApp {{
-                    background: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg");
+                    background: url("https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg");
                     background-size: cover}}
                     </style>""",unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center; color: white;'>Extracting Business Card Data with OCR</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: blue;'>Extracting Business Card Data with OCR</h1>", unsafe_allow_html=True)
 tab1,tab2 = st.tabs(["Extract card and Load into MySQL","Update & Delete card details"])
 with tab1:
     col1,col2 = st.columns(2)
